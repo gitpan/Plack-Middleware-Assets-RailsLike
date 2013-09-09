@@ -49,7 +49,7 @@
             "JavaScript::Minifier::XS" : "0.09",
             "Plack" : "0",
             "Text::Sass" : "0.97",
-            "Text::Sass::XS" : "0.06",
+            "Text::Sass::XS" : "0.10",
             "perl" : "5.010001"
          }
       },
@@ -64,7 +64,7 @@
    "provides" : {
       "Plack::Middleware::Assets::RailsLike" : {
          "file" : "lib/Plack/Middleware/Assets/RailsLike.pm",
-         "version" : "0.12"
+         "version" : "0.13"
       },
       "Plack::Middleware::Assets::RailsLike::Compiler" : {
          "file" : "lib/Plack/Middleware/Assets/RailsLike/Compiler.pm"
@@ -81,7 +81,7 @@
          "web" : "https://github.com/ysasaki/p5-plack-middleware-assets-railslike"
       }
    },
-   "version" : "0.12",
+   "version" : "0.13",
    "x_contributors" : [
       "ysasaki <aloelight@gmail.com>"
    ]

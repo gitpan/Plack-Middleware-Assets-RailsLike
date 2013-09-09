@@ -29,7 +29,7 @@ no_index:
 provides:
   Plack::Middleware::Assets::RailsLike:
     file: lib/Plack/Middleware/Assets/RailsLike.pm
-    version: 0.12
+    version: 0.13
   Plack::Middleware::Assets::RailsLike::Compiler:
     file: lib/Plack/Middleware/Assets/RailsLike/Compiler.pm
 requires:
@@ -42,12 +42,12 @@ requires:
   JavaScript::Minifier::XS: 0.09
   Plack: 0
   Text::Sass: 0.97
-  Text::Sass::XS: 0.06
+  Text::Sass::XS: 0.10
   perl: 5.010001
 resources:
   bugtracker: https://github.com/ysasaki/p5-plack-middleware-assets-railslike/issues
   homepage: https://github.com/ysasaki/p5-plack-middleware-assets-railslike
   repository: git://github.com/ysasaki/p5-plack-middleware-assets-railslike.git
-version: 0.12
+version: 0.13
 x_contributors:
   - 'ysasaki <aloelight@gmail.com>'
